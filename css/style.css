@@ -1,4 +1,4 @@
-body{
+body {
     padding: 0;
     margin: 0;
     background-color: rgb(29, 26, 26);
@@ -6,17 +6,17 @@ body{
     font-family: 'Josefin Sans', sans-serif;
 }
 
-header{
+header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 1rem;
+    padding: 16px;
     border-bottom: 1px solid rgb(66, 64, 64);
 }
 
-.main-heading > span{
+.main-heading > span {
     margin: 5px 10px;
-    font-size: 2rem;
+    font-size: 32px;
 }
 
 nav > ul {
@@ -26,48 +26,65 @@ nav > ul {
 }
 
 nav > ul > li {
-    margin: 0 1rem;
+    margin: 0 16px;
 }
 
-.iphone-photo{
+.iphone-photo {
     display: flex;
+    flex-direction: column;
     align-items: center;
     height: 100vh;
     justify-content: center;
 }
 
-.iphone-heading{
+.iphone-heading {
     position: absolute;
-    font-size: 5rem;
+    font-size: 80px; 
 }
 
-.category-section{
+.buy-button {
+    padding: 8px 16px;
+    border-radius: 10px;
+    background-color: rgb(66, 64, 64);
+    color: aliceblue;
+    font-family: 'Josefin Sans', sans-serif;
+    cursor: pointer;
+}
+
+.category-section {
     width: 100%;
     background-color: rgb(66, 64, 64);
-    padding: 1rem;
+    padding: 16px; 
     box-sizing: border-box;
 }
 
-.category-grid{
+.categories-heading {
+    text-align: center;
+    font-size: 32px; 
+}
+
+.category-grid {
     margin: 0 10vw;
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 10px;
 }
 
-.grid-box{
+.grid-box {
     background-color: rgb(117, 117, 117);
     padding: 10px;
     border-radius: 10px;
 }
 
-.item-1, .item-3, .item-4{
+.item-1,
+.item-3,
+.item-4 {
     height: 200px;
     display: flex;
     justify-content: center;
 }
 
-.item-2{
+.item-2 {
     grid-column: span 2 / -1;
     grid-row: span 2;
     display: flex;
@@ -75,4 +92,14 @@ nav > ul > li {
     justify-content: center;
 }
 
+.detail-section {
+    text-align: center;
+    margin: 0 10vw;
+}
 
+footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(66, 64, 64);
+    padding: 10px 50px;
+}
