@@ -95,6 +95,17 @@ nav > ul > li {
 .detail-section {
     text-align: center;
     margin: 0 10vw;
+    padding: 20px;
+}
+
+.detail-para{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
+
+.detail-para > p {
+    text-align: left;
 }
 
 footer {
