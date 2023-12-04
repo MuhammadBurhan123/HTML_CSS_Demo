@@ -1,0 +1,49 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(29, 26, 26);
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 1px solid rgb(66, 64, 64);
+}
+
+.main-heading > span{
+    margin: 5px 10px;
+    font-size: 2rem;
+}
+
+nav > ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+nav > ul > li {
+    margin: 0 1rem;
+}
+
+.iphone-photo{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+.iphone-heading{
+    position: absolute;
+    font-size: 5rem;
+}
+
+.category-grid{
+    margin: 0 10vw;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+}
