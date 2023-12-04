@@ -41,9 +41,37 @@ nav > ul > li {
     font-size: 5rem;
 }
 
+.category-section{
+    width: 100%;
+    background-color: rgb(66, 64, 64);
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
 .category-grid{
     margin: 0 10vw;
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto;
+    gap: 10px;
 }
+
+.grid-box{
+    background-color: rgb(117, 117, 117);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.item-1 > img{
+    height: 33.3%;
+}
+
+.item-2{
+    grid-column: span 2 / -1;
+    grid-row: span 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
